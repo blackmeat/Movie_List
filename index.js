@@ -67,14 +67,14 @@
 				<div class="col-sm-3">
 					<div class="card mb-2">
 						<img class="card-img-top" src="${POSTER_URL}${item.image}" alt="Card image cap">
-							<div class="card-body movie-item-body">
-								<h6>${item.title}</h6>
+						<div class="card-body movie-item-body">
+							<h6>${item.title}</h6>
+						</div>
+						<div class="card-footer">
+							<div class="row">
+								${genresContent}
 							</div>
-							<div class="card-footer">
-								<div class="row">
-									${genresContent}
-								</div>
-							</div>
+						</div>
 					</div>
 				</div>
 				`
