@@ -62,7 +62,7 @@
 			`
 			}
 
-			// 每部電影的海報及標題
+			// 每部電影的海報及標題及類型
 			movieContent += `
 				<div class="col-sm-3">
 					<div class="card mb-2">
